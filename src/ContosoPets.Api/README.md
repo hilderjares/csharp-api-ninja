@@ -1,5 +1,5 @@
-dotnet new webapi -o contoso-pets/src/ContosoPets.Api
+```dotnet new webapi -o contoso-pets/src/ContosoPets.Api```
 
-dotnet run > ContosoPets.Api.log &
+```dotnet run > ContosoPets.Api.log &```
 
-kill $(pidof dotnet)
+```kill $(pidof dotnet)```
